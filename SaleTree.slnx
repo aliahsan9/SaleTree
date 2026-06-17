@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Packages.props" />
+  </Folder>
+  <Project Path="SaleTree.API/SaleTree.API.csproj" />
+  <Project Path="SaleTree.Application/SaleTree.Application.csproj" />
+  <Project Path="SaleTree.Domain/SaleTree.Domain.csproj" />
+  <Project Path="SaleTree.Infrastructure/SaleTree.Infrastructure.csproj" />
+  <Project Path="SaleTree.Persistence/SaleTree.Persistence.csproj" />
+</Solution>
