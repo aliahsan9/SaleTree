@@ -10,4 +10,8 @@
     <ProjectReference Include="..\SaleTree.Domain\SaleTree.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Common\" />
+  </ItemGroup>
+
 </Project>
