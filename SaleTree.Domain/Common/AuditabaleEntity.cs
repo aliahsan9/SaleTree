@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+namespace SaleTree.Domain.Common;
 
-namespace SaleTree.Domain.Common
+public abstract class AuditableEntity : BaseEntity
 {
-    internal class AuditabaleEntity
-    {
-    }
+    public DateTime CreatedAtUtc { get; set; }
+
+    public DateTime? UpdatedAtUtc { get; set; }
 }
