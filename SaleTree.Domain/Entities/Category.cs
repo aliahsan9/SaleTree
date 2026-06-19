@@ -16,4 +16,5 @@ public class Category : AuditableEntity
 
     public ICollection<Product> Products { get; set; }
         = new List<Product>();
+
 }
