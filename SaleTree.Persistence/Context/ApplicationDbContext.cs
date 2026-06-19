@@ -2,12 +2,10 @@ using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 using SaleTree.Domain.Entities;
-using SaleTree.Persistence.Identity;
-
 namespace SaleTree.Persistence.Context;
 
 public class ApplicationDbContext
-    : IdentityDbContext<
+    : IdentityDbContext< 
         ApplicationUser,
         ApplicationRole,
         Guid>

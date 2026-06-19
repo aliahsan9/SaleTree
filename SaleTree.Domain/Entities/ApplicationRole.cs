@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Identity;
 
-namespace SaleTree.Persistence.Identity;
+namespace SaleTree.Domain.Entities;
 
 public class ApplicationRole : IdentityRole<Guid>
 {

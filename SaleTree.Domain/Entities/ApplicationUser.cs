@@ -1,8 +1,8 @@
-using Microsoft.AspNet.Identity.EntityFramework;
+using Microsoft.AspNetCore.Identity;
 
 namespace SaleTree.Domain.Entities;
 
-public class ApplicationUser : IdentityUser
+public class ApplicationUser : IdentityUser<Guid>
 {
     public string FirstName { get; set; } = string.Empty;
 
@@ -13,10 +13,6 @@ public class ApplicationUser : IdentityUser
     public bool IsActive { get; set; } = true;
 
     public DateTime CreatedAtUtc { get; set; }
-
-    /*
-     * Navigation Properties
-     */
 
     public Store? Store { get; set; }
 }
