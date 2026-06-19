@@ -4,7 +4,7 @@ public sealed class AuthResponse
 {
     public string UserId { get; set; } = string.Empty;
 
-    public string FullName { get; set; } = string.Empty;
+    public string FullName { get; set; } = string.Empty; // User Full Name
 
     public string Email { get; set; } = string.Empty;
 
